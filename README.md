@@ -72,7 +72,6 @@ Welcome to the OIBSIP (Organization for Internship and Business Skill Improvemen
 
 ## Author
 
-- **Your Name**
 - GitHub: [prathmeshtiwari22](https://github.com/prathmeshtiwari22)
 
 Feel free to customize this README to include additional details about your internship experience, challenges faced, and lessons learned. Happy coding!
