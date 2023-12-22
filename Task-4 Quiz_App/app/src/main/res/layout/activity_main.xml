@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kbc12002"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/totalq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="TOTAL QUESTIONS"
+        android:textColor="@color/design_default_color_secondary"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/choicebased"
+        android:id="@+id/question"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="AAPKA QUESTION YEH RAHA"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/system_accent3_10"
+        android:textSize="24dp" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/choicebased"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/optionA"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:text="Option A"
+            android:textColor="@color/black"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/optionB"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:text="Option B"
+            android:textColor="@color/black"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/optionC"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:text="Option C"
+            android:textColor="@color/black"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/optionD"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:text="Option D"
+            android:textColor="@color/black"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choicebased"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:shadowColor="@color/black"
+        android:text="Submit"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/design_default_color_error" />
+
+
+
+</RelativeLayout>
+

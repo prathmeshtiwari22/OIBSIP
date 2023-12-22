@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable baseline_arrow_right_24
+drawable baseline_autorenew_24
+drawable baseline_stop_circle_24
+drawable clock
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id restart
+id start
+id stop
+id textViewTimer
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.StopWatch
+style Theme.StopWatch
+xml backup_rules
+xml data_extraction_rules
